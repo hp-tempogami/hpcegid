@@ -1,0 +1,28 @@
+{
+  "name": "mandelflow",
+  "version": "1.0.0",
+  "description": "MandelFlow — coach IA pour construire une matrice Mandel-art 9x9",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hp-tempogami/hpcegid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hp-tempogami/hpcegid/issues"
+  },
+  "homepage": "https://github.com/hp-tempogami/hpcegid#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "zod": "^4.6.5"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
